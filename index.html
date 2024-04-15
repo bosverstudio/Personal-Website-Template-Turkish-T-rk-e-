@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Hüsamettin Emre - Kişisel Web Sitesi</title>
+    </head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            overflow: auto;
+            scroll-behavior: smooth;
+        }
+
+        #container {
+            margin: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            background: #efefef;
+        }
+
+        #fethedici-container {
+            margin: 10px;
+        }
+
+        h3 {
+            padding-bottom: 10px;
+            border-bottom: 1px solid gray;
+            margin-bottom: 20px;
+        }
+
+        #fethedici-mixer {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        #fethedici-mixer > :not(:last-child) {
+            margin-right: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        #fethedici-mixer-img {
+            margin-bottom: 20px;
+        }
+
+        #fethedici-mixer-img > img {
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.3);
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        #fethedici-mixer-img > :not(:last-child) {
+            margin-bottom: 10px;
+        }
+    </style>
+    <body>
+        <div id="container">
+            <img src="./bannerdosyasinintamadiburayagelecek" alt="Gönüllerin Fethedicisi Banner" />
+            <div id="fethedici-container">
+                <div id="fethedici-mixer">
+                    <a href="#fethedici-hakkinda">Hakkımda</a>
+                    <a href="#fethedicinin-galeri">Galeri</a>
+                    <a href="#fethediciye-ulas">İletişim</a>
+                </div>
+                <h3 id="fethedici-hakkinda">Hakkımda</h3>
+                <p>Hakkında buraya gelecek</p>
+                <h3 id="fethedicinin-galeri">Galeri</h3>
+                <div id="fethedici-mixer-img">
+                    <img src="./resim1dosyasinintamadiburayagelecek" alt="Fethedici Resim 1" />
+                    <img src="./resim2dosyasinintamadiburayagelecek" alt="Fethedici Resim 2" />
+                    <img src="./resim3dosyasinintamadiburayagelecek" alt="Fethedici Resim 3" />
+                    <img src="./resim4dosyasinintamadiburayagelecek" alt="Fethedici Resim 4" />
+                </div>
+                <h3 id="fethediciye-ulas">İletişim</h3>
+                <p>
+                    <p><strong>E-posta adresi:</strong> <a href="mailto:epostaburayagelecek@gmail.com">epostaburayagelecek@gmail.com</a></p>
+                    <p><strong>Telefon numarası:</strong> <a href="tel:telefonnumarasiburayagelecek">telefon numarası buraya gelecek</a></p>
+                    <p><strong>Okul numarası:</strong> okul numarası buraya gelecek</p>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
